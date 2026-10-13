@@ -1,0 +1,31 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# Node.js
+node_modules/
+dist/
+build/
+.expo/
+# AI datasets and models
+ai1/data/*
+!ai1/data/.gitkeep
+!ai1/data/README.md
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+# Private medical data
+private-data/
+patient-records/
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
